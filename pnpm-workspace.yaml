@@ -2,6 +2,7 @@ packages:
   - "packages/*"
 allowBuilds:
   electron: true
+  electron-winstaller: set this to true or false
   esbuild: true
 overrides:
   # Next.js pins postcss 8.4.31, which has known path-traversal advisories.
